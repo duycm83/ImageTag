@@ -1,0 +1,107 @@
+.jTagArea{
+}
+
+.jTagOverlay{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.jTagDrag{
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 50%;/* width,heightの半分 */
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border:1px solid red;
+	background-color: #999;/* 円の色 */
+}
+.jTagInput{
+	margin-right:50px;
+	margin-top:5px;
+}
+
+.jTagSave{
+	width:100px;
+	margin-left:35px;
+	background:black;
+}
+
+.jTagInput input{
+	border:1px solid red;
+	width:55px;
+	float:left;
+	padding:0;
+	margin:0;
+}
+
+.jTagSaveClose{
+	cursor:pointer;
+	float: right;
+	width:20px;
+	height:20px;
+	background: url('../images/cancel.png') no-repeat;
+	background-position: center center;
+}
+
+.jTagDeleteTag{
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	left: 110px;
+	z-index:5;
+	width: 20px;
+	height: 20px;
+	background: url('../images/cancel.png') no-repeat;
+
+}
+
+.jTagSaveBtn{
+	cursor:pointer;
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('../images/save.png') no-repeat;
+	background-position: center center;
+}
+
+.jTagPngOverlay{
+	background: url(../images/trans.png);
+}
+
+
+.jTagTag{
+	opacity: 0;
+	border:1px solid red;
+	position:absolute;
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 50%;/* width,heightの半分 */
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.jTagTag span{
+	width:100px;
+	background-color:red;
+	color:#fff;
+	height:20px;
+	position: absolute;
+	top:5px;
+	text-align: center;
+	font-size: 10px;
+	line-height:20px;
+	margin-left:35px;
+}
+
+.jTagLabels{
+	padding:25px;
+}
+
+.jTagLabels label{
+	font-weight:bold;
+	padding:5px;
+	cursor:pointer;
+	float:left;
+}
